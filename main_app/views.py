@@ -4,3 +4,9 @@ from django.shortcuts import render
 
 def home(request):
     return render (request, 'core/base.html')
+
+def app_home(request):
+    return render (request, 'app_pages/home.html')
+
+def add(request):
+    return render (request,'app_pages/add.html')
